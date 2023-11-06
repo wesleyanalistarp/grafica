@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
+        integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" a href="../CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Logo aqui</a></div>
+            <ul class="links">
+                <li><a href="Home">Home</a></li>
+                <li><a href="Servicos">Serviços</a></li>
+                <li><a href="Quem Somos">Quem Somos</a></li>
+                <li><a href="Rodape">Rodapé</a></li>
+            </ul>
+            <a href="#" class="action_btn">Serviços realizados</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="Home">Home</a></li>
+            <li><a href="Servicos">Serviços</a></li>
+            <li><a href="Quem Somos">Quem Somos</a></li>
+            <li><a href="Rodape">Rodapé</a></li>
+            <li><a href="#" class="action_btn">Serviços realizados</a></li>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Página modelo</h1>
+            <p>Página Modelo</p>
+        </section>
+    </main>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+    <article>
+        <div class="container">
+            <div class="card-2">
+                <div class="imgBx">
+                    <img src="../CSS/img/grafica1.png">
+                </div>
+                <div class="content">
+                    <div>
+                        <h2>Adesivos</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus in<br> voluptate
+                            deserunt ea perspiciatis incidunt consequatur consequuntur praesentium suscipit?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="imgBx">
+                    <img src="../CSS/img/grafica2.png">
+                </div>
+                <div class="content">
+                    <div>
+                        <h2>Banners</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus in<br> voluptate
+                            deserunt ea perspiciatis incidunt consequatur consequuntur praesentium suscipit?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="imgBx">
+                    <img src="../CSS/img/grafica3.jpg">
+                </div>
+                <div class="content">
+                    <div>
+                        <h2>Plotagem</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus in<br> voluptate
+                            deserunt ea perspiciatis incidunt consequatur consequuntur praesentium suscipit?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="imgBx">
+                    <img src="../CSS/img/grafica4.jpg">
+                </div>
+                <div class="content">
+                    <div>
+                        <h2>Adesivos Perfurados</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus in<br> voluptate
+                            deserunt ea perspiciatis incidunt consequatur consequuntur praesentium suscipit?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="imgBx">
+                    <img src="../CSS/img/grafica4.jpg">
+                </div>
+                <div class="content">
+                    <div>
+                        <h2>Placas</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus in<br> voluptate
+                            deserunt ea perspiciatis incidunt consequatur consequuntur praesentium suscipit?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="imgBx">
+                    <img src="../CSS/img/grafica4.jpg">
+                </div>
+                <div class="content">
+                    <div>
+                        <h2>Cavaletes</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus in<br> voluptate
+                            deserunt ea perspiciatis incidunt consequatur consequuntur praesentium suscipit?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="imgBx">
+                    <img src="../CSS/img/grafica4.jpg">
+                </div>
+                <div class="content">
+                    <div>
+                        <h2>Painel de Aniversário</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus in<br> voluptate
+                            deserunt ea perspiciatis incidunt consequatur consequuntur praesentium suscipit?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="imgBx">
+                    <img src="../CSS/img/grafica4.jpg">
+                </div>
+                <div class="content">
+                    <div>
+                        <h2>Faixa de Rua</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates minus in<br> voluptate
+                            deserunt ea perspiciatis incidunt consequatur consequuntur praesentium suscipit?</p>
+                    </div>
+                </div>
+            </div>
+
+    </article>
+    <section class="cards">
+        <div class="slide">
+            <span style="--i:1;"><img src="../CSS/img/1.jpg" alt=""></span>
+            <span style="--i:2;"><img src="../CSS/img/2.jpg" alt=""></span>
+            <span style="--i:3;"><img src="../CSS/img/3.jpg" alt=""></span>
+            <span style="--i:4;"><img src="../CSS/img/4.jpg" alt=""></span>
+            <span style="--i:5;"><img src="../CSS/img/5.jpg" alt=""></span>
+            <span style="--i:6;"><img src="../CSS/img/6.jpg" alt=""></span>
+            <span style="--i:7;"><img src="../CSS/img/7.jpg" alt=""></span>
+            <span style="--i:8;"><img src="../CSS/img/8.jpg" alt=""></span>
+        </div>
+    </section>
+    <div class="whatsapp">
+        <a href="https://wa.me/5577991162642?text=Olá cliente, nos encontrou pelo nosso site, em que posso ajuda-lo?"
+            target="_blank">
+            <img src="../img/whatsapp1.png" width=" 80" height=" 80" alt="Fale conosco pelo whatsapp"
+                title="Fale conosco" />
+        </a>
+    </div>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Logo</h1>
+                <p>Gráfica Alfa</p>
+                <div id="footer_social_midia">
+                    <a href="#" class="footer_link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer_link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://wa.me/5577991162642?text=Olá cliente, nos encontrou pelo nosso site, em que posso ajuda-lo?" target="_blank"  class="footer_link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="footer_list">
+                <li>
+                    <h3>Endereço</h3>
+                </li>
+                <li>
+                  <p class="end">Av. Juracy Magalhães 1648 <br> Boa Vista - Vitória da Conquista - BA</p>
+                </li>
+               
+            </ul>
+            <ul class="footer_list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Marcas</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Parceiros</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Contatos</a>
+                </li>
+            </ul>
+            <div id="footer_subscribe">
+                <h3>Inscrevam-se</h3>
+                <p>
+                    Registre seu email para ter acesso a nossa Newslatter
+                </p>
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="footer_copyright">
+            &#169
+            Todos os direitos reservados
+        </div>
+    </footer>
+</body>
+</html>
